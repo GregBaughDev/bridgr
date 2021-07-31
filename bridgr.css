@@ -1,4 +1,4 @@
-body {
+.bridgr-body {
     height: 100%;
     width: auto;
     background-color: black;
@@ -9,7 +9,7 @@ body {
     margin: 0 2vw;
 }
 
-h1 {
+.bridgr-body h1 {
     font-size: 1.5rem;
 }
 
