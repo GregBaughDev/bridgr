@@ -1,0 +1,29 @@
+body {
+    height: 100%;
+    width: auto;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lyric-insert {
+    width: 50vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-time {
+    font-size: 1.5rem;
+}
