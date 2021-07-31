@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "bridgr",
+    "description": "Lyrics by Phoebe Bridgers in your window. Buy Phoebe's music here https://phoebebridgers.bandcamp.com/",
+    "version": "1.0.0",
+    "author": "Greg Baugh",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "css": ["bridgr.css"],
+            "js": ["bridgr.js"]
+        }
+    ],
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "browser_action": {
+        "default_title": "bridgr"
+    },
+    "icons": {
+        "16": "icons/bridgr16.png",
+        "48": "icons/bridgr48.png",
+        "128": "icons/bridgr128.png"
+    }
+}
