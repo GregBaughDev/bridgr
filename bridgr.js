@@ -1,6 +1,6 @@
 const insert = document.querySelector(".lyric-insert")
-const time = document.querySelector(".time")
-const date = document.querySelector(".date")
+const time = document.querySelector(".bridgr-time")
+const date = document.querySelector(".bridgr-date")
 const random42 = Math.floor(Math.random() * 42)
 
 const lyrics = [

@@ -13,7 +13,7 @@
     font-size: 1.5rem;
 }
 
-.container {
+.bridgr-container {
     height: 90vh;
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@
     flex-direction: column;
 }
 
-.container div:first-child {
+.bridgr-container div:first-child {
     align-self: flex-start;
 }
 
@@ -33,12 +33,12 @@
     justify-content: center;
 }
 
-.lwr {
+.bridgr-lwr {
     display: flex;
     width: 70%;
     justify-content: space-between;
 }
 
-.time, .date {
+.bridgr-time, .bridgr-date {
     font-size: 1.5rem;
 }
